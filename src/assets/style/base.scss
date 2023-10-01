@@ -1,0 +1,13 @@
+body {
+    font-family: 'Quicksand';
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.container {
+    padding: 0 25px;
+
+    @media (min-width: 1440px) {
+        padding: 0 100px;
+    }
+}

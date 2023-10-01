@@ -1,0 +1,46 @@
+.main-title {
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+    @media (min-width: $-s-desktop) {
+        font-size: 64px;
+        letter-spacing: 0.64px;
+    }
+}
+
+.title {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 0.072px;
+
+    @media (min-width: $-s-desktop) {
+        font-size: 55px;
+        letter-spacing: 0.165px;
+
+    }
+}
+
+.base-text {
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    color: $-c-gray-soft;
+
+    @media (prefers-color-scheme: dark) {
+        color: $-c-white-soft;
+    }
+
+    @media (min-width: $-s-desktop) {
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        line-height: 32px;
+    }
+
+}
