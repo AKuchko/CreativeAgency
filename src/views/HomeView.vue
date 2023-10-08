@@ -1,29 +1,23 @@
 <script setup>
-import BaseButton from '../components/common/BaseButton.vue';
+import SectionAbout from '../components/sections/home/SectionAbout.vue';
+import SectionIntro from '../components/sections/home/SectionIntro.vue';
+import SectionPotfolio from '../components/sections/home/SectionPortfolio.vue';
+import SectionServices from '../components/sections/home/SectionServices.vue';
 </script>
 
 <template>
-    <section class="container">
-        <h1 class="home__title main-title">Make your dream <br>business goal come true</h1>
-        <p class="home__intro base-text">
-            when you need us for improve your business, then come with us to help your business have reach it, 
-            you just sit and feel that goal
-        </p>
-        <BaseButton class="home__start-btn" label="Start Project"/>
-        <div class="home__picture">
-            <picture>
-                <source srcset="">
-            </picture>
-        </div>
-    </section>
+    <div class="home">
+        <SectionIntro class="home__section" />
+        <SectionAbout class="home__section" />
+        <SectionServices class="home__section" />
+        <SectionPotfolio class="home__section" />
+    </div>
 </template>
 
 <style lang="scss">
-    .home {
-        &__intro {
-            text-align: center;
-            color: $-c-white-soft;
-            opacity: 0.6;
-        }
+.home {
+    &__section {
+        margin-bottom: 99px;
     }
+}
 </style>

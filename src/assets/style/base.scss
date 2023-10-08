@@ -4,6 +4,10 @@ body {
     background: var(--background-color);
 }
 
+.fixed {
+    overflow: hidden;
+}
+
 .container {
     padding: 0 25px;
 

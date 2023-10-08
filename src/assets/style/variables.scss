@@ -13,6 +13,8 @@ $-c-yello: #FFA800;
 $-c-yellow-dark: #FFB21A;
 $-c-green: #7CE761;
 
+$-c-primary: $-c-blue;
+
 // Sizes
 $-s-desktop: 1440px;
 $-s-text-small: 12px;
@@ -33,3 +35,6 @@ $-s-text-base-desktop: 20px;
         --text-color: #{$-c-white-soft};
     }
 }
+
+// effects
+$-e-base-transition: 0.3s ease 0s;

@@ -4,6 +4,7 @@
     font-size: 28px;
     line-height: normal;
     letter-spacing: 0.28px;
+    text-align: center;
 
     @media (min-width: $-s-desktop) {
         font-size: 64px;
@@ -21,7 +22,24 @@
     @media (min-width: $-s-desktop) {
         font-size: 55px;
         letter-spacing: 0.165px;
+    }
+}
 
+.subtitle {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    color: $-c-primary;
+
+    @media (min-width: $-s-desktop) {
+        font-size: 24px;
+        letter-spacing: 0.24px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        color: $-c-white-soft;
     }
 }
 
